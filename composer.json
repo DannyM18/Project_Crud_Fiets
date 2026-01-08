@@ -1,0 +1,23 @@
+{
+    "name": "gebruiker/project_crud_fiets",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "ProjectCrudFiets\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DannyM18",
+            "email": "9018794@student.zadkine.nl"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
